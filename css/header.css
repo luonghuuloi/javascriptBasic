@@ -1,0 +1,25 @@
+.header{
+    background: url(../picture/background_header.jpg) center no-repeat;
+    width: 1000px;
+    height: 173px;
+}
+#logo{
+    float: left;
+    padding: 15px;
+}
+.slider{
+    width: 650px;
+    height: 164px;
+    float: left;
+    padding: 0px 0px 0px 50px;
+}
+.top_divider{
+    float: left;
+    width: 1px;
+    height: 164px;
+}
+.slide_content{
+    width: 538px;
+    float: left;
+    padding: 15px 30px 0px 30px;
+}

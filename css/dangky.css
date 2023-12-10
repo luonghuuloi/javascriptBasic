@@ -1,0 +1,71 @@
+.dangkyform{
+   width: 450px;
+   font-size: 15px;
+   margin-left: 70px;
+}
+
+#dn{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+#mk{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+#nlmk{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+#ten{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+#email{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+#diachi{
+    padding: 6px;
+    margin-bottom: 20px;
+}
+.gioitinh{
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.sothich{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.jobs{
+   padding: 10px;
+   margin-bottom: 20px;
+   width: 450px;
+}
+.ghichu{
+    padding: 0;
+}
+.nut{
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color:gray;
+    color: white;
+    
+}
+.nut:hover{
+    color:red;
+    background-color:aquamarine; 
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+

@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: plum;
+  color: white;
+  position: absolute;
+  top: 370px;
+  left: 400px;
+}
+
+.next {
+  background-color: plum;
+  color: white;
+  float: right;
+  position: absolute;
+  top: 370px;
+  right: 400px;
+}
+
+.round {
+  border-radius: 50%;
+}

@@ -1,0 +1,71 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 10px;
+    background-color: #D8D8D8;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    padding: 0px 10px;
+    line-height: 40px;
+    padding: 0px 25px 0px 25px;
+}
+.menu>ul>li>a:hover{
+    color: red;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: #D8D8D8;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: blue;
+    color: white;
+}
+#home{
+    background: url(../picture/home.png) no-repeat left;
+}
+#intro{
+    background: url(../picture/services.png) no-repeat left;
+}
+#shop{
+    background: url(../picture/favs.png) no-repeat left;
+}
+#money{
+    background: url(../picture/car.png) no-repeat left;
+}
+#comment{
+    background: url(../picture/contact-new.png) no-repeat left;
+}
+#question{
+    background: url(../picture/user_add.png) no-repeat left;
+}

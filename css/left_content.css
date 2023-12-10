@@ -1,0 +1,84 @@
+.left_content{
+    width: 196px;
+    float: left;
+}
+.title_box{
+    width: 196px;
+    height: 30px;
+    background: url(../picture/menu_title_bg.gif) no-repeat center;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    line-height: 30px;
+}
+ul.left{
+    width: 196px;
+    list-style: none;
+}
+ul.left li{
+    width: 196px;
+    list-style: none;
+}
+ul.left li.le a{
+    width: 166px;
+    height: 35px;
+    display: block;
+    background: url(../picture/checked.png) no-repeat left pink;
+    text-decoration: none;
+    color: indigo;
+    line-height: 25px;
+    background-position: 5px 5px;
+    padding: 0px 0px 0px 30px;
+    font-size: medium;
+}
+ul.left li.chan a{
+    width: 166px;
+    height: 35px;
+    display: block;
+    background: url(../picture/checked.png) no-repeat left palegoldenrod;
+    text-decoration: none;
+    line-height: 25px;
+    background-position: 5px 5px;
+    padding: 0px 0px 0px 30px;
+    font-size: medium;
+}
+ul.left li.le a:hover,ul.left li.chan a:hover{
+    background: url(../picture/checked.png) no-repeat left blue;
+    color: white;
+    background-position: 5px 5px;
+}
+.border_box{
+    width: 194px;
+    height: auto;
+    text-align: center;
+    border: 1px solid blue;
+}
+.product_title{
+    color: red;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.product_title a{
+    color: red;
+    text-decoration: none;
+}
+.product_title a:hover {
+    color: purple;
+}
+.product_price{
+    padding: 5px 0px;
+}
+span.reduce{
+    text-decoration: line-through;
+    color: gray;
+}
+span.price{
+    color: red;
+}
+.banner_adds{
+    width: 194px;
+    text-align: center;
+    padding: 10px 0px;
+}

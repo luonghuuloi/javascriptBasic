@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clr{
+    clear: both;
+}
+body{
+    background: url(../picture/hinhnen.jpg) center top no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.main{
+    width: 1000px;
+    margin: 0px auto;
+}
+.top{
+    width: 1000px;
+    height: 38px;
+    background-color: gray;
+}
+.languages{
+    float: right;
+    width: 150px;
+    padding-top: 10px;
+}
+.languages div{
+    float: left;
+    color: white;
+    padding: 0px 5px 0px 0px;
+}
+.languages a{
+    float: left;
+    display: block;
+    padding: 0px 5px;
+}
+.input{
+    float: left;
+    width: 110px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.input a{
+    float: left;
+    color: white;
+    padding: 0px 5px 0px 0px;
+    text-decoration: none;
+}
+.buy{
+    float: left;
+    width: 100px;
+    padding-top: 10px;
+}
+.buy div{
+    float: right;
+    color: white;
+    padding: 0px 5px 0px 0px;
+}
+.buy a{
+    float: right;
+    display: block;
+    padding: 0px 5px 0px 0px;
+}

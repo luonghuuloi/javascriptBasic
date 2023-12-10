@@ -1,0 +1,27 @@
+.bang{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.bang>thead{
+    background-color: blue;
+    color: white;
+}
+.bang>tbody{
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+}
+.bang>tfoot{
+    background-color: wheat;
+    color: darkblue;
+    font-size: 20px;
+    font-style: italic;
+}
+h3{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
